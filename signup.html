@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=LXGW+Marker+Gothic&display=swap" rel="stylesheet">
+    <style>
+    form{
+        width: 400px;
+        height: 1000px;
+        margin:  auto;
+        box-shadow: 0 0 5px black;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: white;
+        background: rgba(255, 255, 255, 0.1); /* mờ nền trắng */
+        backdrop-filter: blur(10px);
+        box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    }
+    body{
+        background-image: url('imgs/background.jpg');
+        background-position: center;
+        margin: 0;
+        padding: 0;
+        font-family: "LXGW Marker Gothic", sans-serif;
+    }
+    input{
+        width: 97%;
+        height: 44px;
+        background-color: #ffffff80;
+        border-radius: 20px;
+        padding:  5px 0 5px 5px;
+        box-shadow: 0 0 5px white;
+        font-size: 16px;
+        font-family: "LXGW Marker Gothic", sans-serif;
+        
+    }
+    select{
+        width: 99%;
+        height: 44px;
+        background-color: #ffffff80;
+        border-radius: 20px;
+        padding:  5px 0 5px 5px;
+        box-shadow: 0 0 5px white;
+        font-size: 16px;
+        color: #fff;
+        font-family: "LXGW Marker Gothic", sans-serif;
+    }
+    .dangky{
+        width: 99%;
+        height: 47px;
+        border-radius: 10px;
+        background-color: #f04e27;
+        color: #fff;
+        box-shadow: 0 0 5px white;
+        font-size: 20px;
+        font-family: "LXGW Marker Gothic", sans-serif;
+    }
+    .bottom .btn{
+        width: 99%;
+        height: 44px;
+        line-height: 44px;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+        background-color: #ffffff80;
+        border-radius: 10px;
+        padding:  5px 0 5px 5px;
+        margin: 5px 0;
+        font-size: 20px;
+        border: 1px solid #ffffff80;
+        display: block;
+    }
+    ::placeholder{
+        color: #fff;
+        font-family: "LXGW Marker Gothic", sans-serif;
+    }
+    footer{
+    background-color: #1f1f1f;
+    margin-top: 30px;
+    height: 270px;
+}
+.all{
+    width: 70%;
+    margin: auto;
+}
+.top1{
+    display: flex;
+}
+.store-locations{
+    width: 60%;
+    padding: 0 10px;
+}
+.policy{
+    padding: 0 10px;
+}
+.cus-service{
+    padding: 0 10px;
+}
+footer h3 {
+    margin: 20px 0px;
+    color: #fff;
+}
+  
+.store {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+  
+.city-btn {
+    background-color: #2a2a2a;
+    color: white;
+    padding: 6px 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    margin-right: 15px;
+    cursor: default;
+}
+  
+.info {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+  
+.info p {
+    color: #ccc;
+    margin: 5px 0;
+    font-size: 14px;
+    flex: 1;
+}
+  
+.map-link {
+    color: #f0441b;
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.policy ul li{
+    list-style: none;
+}
+.policy ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+.cus-service {
+    color: #fff;
+}
+.cus-service a{
+    text-decoration: none;
+    color: #fff;
+}
+form h1{
+    text-align: center;
+    color: #f04e27;
+    font-weight: bold;
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form action="" method="post">
+            <h1>Đăng ký tài khoản</h1>
+            <input type="text" name="" id="" placeholder="Tên"><br><br>
+            <input type="text" name="" id="" placeholder="Họ"><br><br>
+            <input type="text" name="" id="" placeholder="Số điện thoại"><br><br>
+            <select name="" id="" >
+                <option value="">Nam </option>
+                <option value="">Nữ </option>
+                <option value="">Khác </option>
+            </select><br><br>
+            <input type="text" name="" id="" placeholder="Email"><br><br>
+            <input type="text" name="" id="" placeholder="Mật khẩu"><br><br>
+            <button class="dangky">Đăng ký</button><br><br>
+            <div class="bottom"><br><br>
+                <a href="signin.html" class="btn">Đăng nhập</a>
+                <a href="index.html" class="btn">Quay lại trang chủ</a>
+            </div>
+        </form> 
+    </div>
+    <footer>
+        <div class="all">
+            <div class="top1">
+                <div class="policy">
+                    <h3>Chính sách & hỗ trợ</h3>
+                    <ul>
+                        <li><a href="">Chính sách bảo hành</a></li>
+                        <li><a href="">Chính sách bảo mật</a></li>
+                        <li><a href="">Chính sách giao hàng</a></li>
+                        <li><a href="">Chính sách đổi trả & hoàn tiền</a></li>
+                        <li><a href="">Hướng dẫn mua hàng</a></li>
+                        <li><a href="">Hướng dẫn đăng ký bảo hành</a></li>
+                        <li><a href="">Giới thiệu</a></li>
+                        <li><a href="">Hệ thống cửa hàng</a></li>
+                    </ul>
+                </div>
+                <div class="cus-service">
+                    <h3>Chăm sóc khách hàng</h3>
+                    <p>Gọi mua hàng (8h30 - 18h00)</p>
+                    <p>(Thứ 2 - Thứ 7)</p>
+                    <a href="">093 4116 898</a>
+                    
+                </div>
+                <div class="store-locations">
+                    <h3>Địa chỉ cửa hàng</h3>
+                  
+                    <div class="store">
+                      <button class="city-btn">Thành phố Hồ Chí Minh</button>
+                      <div class="info">
+                        <p>JBL STORE - CRESCENT MALL (TẦNG 3): 101 Tôn Dật Tiên, Tân Phú, Quận 7, Hồ Chí Minh</p>
+                        <a href="map.html" class="map-link"><i class="fa fa-map-marker"></i> Xem bản đồ</a>
+                      </div>
+                    </div>
+                  
+                    <div class="store">
+                      <button class="city-btn">Thành phố Đà Nẵng</button>
+                      <div class="info">
+                        <p>JBL STORE - ĐÀ NẴNG: 28 Hàm Nghi, Phường Thạc Gián, Quận Thanh Khê, Đà Nẵng</p>
+                        <a href="map2.html" class="map-link"><i class="fa fa-map-marker"></i> Xem bản đồ</a>
+                      </div>
+                    </div>
+                  
+                    <div class="store">
+                      <button class="city-btn">Thành phố Hà Nội</button>
+                      <div class="info">
+                        <p>JBL STORE - HÀ NỘI: 109, Kim Ngưu, Phường Thanh Lương, Quận Hai Bà Trưng, Hà Nội</p>
+                        <a href="map3.html" class="map-link"><i class="fa fa-map-marker"></i> Xem bản đồ</a>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://uhchat.net/code.php?f=3039b7"></script>
+</body>
+</html>

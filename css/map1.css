@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: "LXGW Marker Gothic", sans-serif;
+    height: 100%;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    padding: 8px 0;
+    
+}
+.menu{
+    display: flex;
+}
+ ul li{
+    padding: 0 5px;
+    list-style: none;
+}
+.searchbar{
+    width: 790px;
+    height: 40px;
+    border-radius: 25px;
+    padding: 0 16px;
+    border: 0 solid white;
+    background-color: #f5f5f5;
+}
+.nav a img{
+    width: 100%;
+    height: 64px;
+    padding: 0 25px 0 0;
+}
+.nav i{
+    padding: 0 10px 0 0;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav ul li a:hover {
+    color: rgb(255, 213, 0);
+}
+.product-list li{
+    float: left;
+}
+.product-list li img{
+  height: 100px;
+  margin: auto;
+}
+.product-list li a {
+  text-align: center;
+  font-size: 14px;
+  padding: 20px 40px 25px 65px;
+}
+.product-list {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  background-color: #fff;
+  margin: 0;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+footer{
+    background-color: #1f1f1f;
+    min-height: 400px;
+    margin-top: 30px;
+}
+.all{
+    width: 70%;
+    margin: auto;
+}
+.top1{
+    display: flex;
+}
+.store-locations{
+    width: 60%;
+    padding: 0 10px;
+}
+.policy{
+    padding: 0 10px;
+}
+.cus-service{
+    padding: 0 10px;
+}
+footer h3 {
+    margin: 20px 0px;
+    color: #fff;
+}
+  
+.store {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 15px;
+}
+  
+.city-btn {
+    background-color: #2a2a2a;
+    color: white;
+    padding: 6px 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    margin-right: 15px;
+    cursor: default;
+}
+  
+.info {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+  
+.info p {
+    color: #ccc;
+    margin: 5px 0;
+    font-size: 14px;
+    flex: 1;
+}
+  
+.map-link {
+    color: #f0441b;
+    text-decoration: none;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+.bot{
+    display: flex;
+}
+.coupon{
+    width: 50%;
+}
+.coupon form input{
+    width: 80%;
+    height: 38px;
+    padding: 0 10px;
+    text-align: left;
+    background-color: #404040;
+    color: #fff;
+}
+.coupon button{
+    margin: 0 0 0 10px;
+    padding: 6px 12px;
+    height: 38px;
+    font-size: 12px;
+    background-color: #F98D20;
+    color: #fff;
+    width: 15%;
+}
+.social i {
+    padding: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+.payment img{
+    width: 25%;
+    height: 70px;
+}
+.policy ul li a{
+    color: #fff;
+}
+.cus-service {
+    color: #fff;
+}
+.cus-service a{
+    text-decoration: none;
+    color: #fff;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%; /* Chiều cao tối thiểu bằng chiều cao trình duyệt */
+}
+main {
+    flex: 1; /* Đẩy footer xuống dưới */
+    padding: 20px;
+  }
+  html{
+    height: 100%;
+    margin: 0;
+  }
+  .big-container{
+    padding: 0;
+    box-shadow: 5px 0 5px grey;
+}
+main{
+    width: 70%;
+    margin: auto;
+}
